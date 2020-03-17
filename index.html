@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+
+
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="menu"><a href="#self">Личная информация</a></div>
+        <div class="menu"><a href="#experience">Опыт</a></div>
+        <div class="menu"><a href="#js">JavaScript</a></div>
+        <div class="menu"><a href="#me">О себе</a></div>
+    </header>
+    <div class="modile-header">
+        <p>
+            <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <img src="/img/nav.jpg" alt="">
+            </a>
+            
+        </p>
+        <div class="collapse nav" id="collapseExample">
+            <div class="card card-body">
+                <div class="menu"><a href="#self">Личная информация</a></div>
+                <div class="menu"><a href="#experience">Опыт</a></div>
+                <div class="menu"><a href="#js">JavaScript</a></div>
+                <div class="menu"><a href="#me">О себе</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg">
+    <img src="/img/bg.png" alt="bg">
+
+</div>
+
+<div class="container ">
+    <div class="text-a">Анкета</div>
+</div>
+<div class="container container-flex " id="self">
+    <div class="ico"><img src="/img/icon-info.png" alt=""></div>
+</div>
+
+<div class="container container-flex ">
+        <div class="title">Личная информация</div>
+</div>
+
+<div class="container container-flex ">
+    <div class="inputs">
+        <div class="input_block">
+            <input type="text" name="name" id="input_fio">
+            <label for="input_fio">
+                <span>ФИО</span>
+            </label>
+        </div>
+
+        <div class="input_block">
+            <div class="dropdown">
+                <a class="btn  dropdown-toggle" href="#" role="button" id="sity" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Год рождения
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="sity">
+                    <a class="dropdown-item" >Год 1</a>
+                    <a class="dropdown-item" >Год 2</a>
+                    <a class="dropdown-item">Год 3</a>
+                    <a class="dropdown-item" >Год 4</a>
+                    <a class="dropdown-item" >Год 5</a>
+                    <a class="dropdown-item" >Год 6</a>
+                </div>
+            </div>
+        </div>
+        <div class="input_block">
+            <input type="text" name="name" id="input_adres">
+            <label for="input_adres">
+                <span>Место проживания</span>
+            </label>
+        </div>
+        <div class="input_block">
+            <input type="text" name="name" id="input_skype">
+            <label for="input_skype">
+                <span>Skype</span>
+            </label>
+        </div>
+        <div class="input_block">
+            <input type="text" name="name" id="input_email">
+            <label for="input_email">
+                <span>E-mail</span>
+            </label>
+        </div>
+    </div>
+</div>
+<div class="container container-flex mt50" id="experience">
+    <div class="ico"><img src="/img/icon-experience.png" alt=""></div>
+</div>
+<div class="container container-flex ">
+    <div class="title">Расскажите о своем опыте</div>
+</div>
+<div class="container container-flex">
+    <div class="cheboxs">
+        <div class="chebox">
+            <label class="container-chebox">БЭМ/OOCSS
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div class="chebox">
+            <label class="container-chebox">Stylus/LESS/SASS
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+         </div>
+        <div class="chebox">
+        <label class="container-chebox"> Работаю с SVG
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        </div>
+        <div class="chebox">
+        <label class="container-chebox">Верстаю семантично
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        </div>
+        <div class="chebox">
+        <label class="container-chebox"> ES2015/ES2016
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        </div>
+        <div class="chebox">
+        <label class="container-chebox"> Gulp/GRUNT
+            <input type="checkbox">
+            <span class="checkmark"></span>
+         </label>
+        </div>
+        <div class="chebox">
+        <label class="container-chebox">Webpack
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        </div>
+        <div class="chebox">
+        <label class="container-chebox"> jQuery
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        </div>
+        <div class="chebox ">
+            <label class="container-chebox">Ипользую Git
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        </div>
+    </div>
+</div>
+
+
+<div class="container container-flex mt110" id="js">
+    <div class="ico"><img src="/img/icon-js.png" alt=""></div>
+</div>
+<div class="container container-flex ">
+    <div class="title">Уровень владения JavaScript</div>
+</div>
+<div class="container container-flex flex-colum">
+    <div class="scale">
+        <div class="s-text">Не владею</div>
+        <div class="s-text">Использую готовые решения</div>
+        <div class="s-text">Использую готовые решения и умею и переделывать</div>
+        <div class="s-text">Пишу сложный JS с нуля</div>   
+
+    </div>
+    <div class="scale-img">
+        <img src="/img/gradient.png" alt="">
+        <div class="select-el"></div>
+        <div class="select-el"></div>
+        <div class="select-el"></div>
+        <div class="select-el"></div>
+        <div id="slider-range-min"></div>
+    </div>
+</div>
+
+
+
+<div class="container container-flex " id="me">
+    <div class="ico"><img src="/img/icon-about-2.png" alt=""></div>
+</div>
+<div class="container container-flex ">
+    <div class="title">Расскажите о себе</div>
+</div>
+<div class="container container-flex mt-35">
+    <div class="text16">
+        Напишите несколько предложений, чем привлекла наша вакансия
+        и что вы ожидаете от работы у нас.
+    </div>
+</div>
+<div class="container container-flex ">
+    <textarea name="" id="" placeholder="Понравилась тем, что..."></textarea>
+</div>
+
+<div class="container container-flex ok">
+    <button class="btn btn-primary" type="button" >
+        Готово
+    </button>
+</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="/js/main.js"></script>
+</html>
